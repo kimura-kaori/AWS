@@ -2,7 +2,7 @@
 lock '3.16.0'
 
 # デプロイするアプリケーション名
-set :application, 'achieve'
+set :application, 'sample_2'
 
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
@@ -12,7 +12,7 @@ set :repo_url, 'https://github.com/kimura-kaori/AWS'
 set :branch, ENV['BRANCH'] || 'master'
 
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/achieve'
+set :deploy_to, '/var/www/sample_2'
 
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
